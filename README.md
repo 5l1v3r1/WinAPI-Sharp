@@ -14,4 +14,4 @@ while (true)
     WinAPI.SelectObject(hdc, brush);
     WinAPI.StretchBlt(hdc, rnd.Next(y), rnd.Next(x), x, y, hdc, rnd.Next(10), rnd.Next(30), x, y, CopyPixelOperation.MergeCopy ^ CopyPixelOperation.PatInvert);
     Thread.Sleep(100);
-}```
+}
