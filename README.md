@@ -1,7 +1,8 @@
 # WinAPI-Sharp
 A test wrapper for C#, Just dll imports bruh.
 
-#Example
+Import: using Windows;
+Example code:
 ```cs
 Random rnd = new Random();
 IntPtr hdc = WinAPI.GetDC(IntPtr.Zero);
