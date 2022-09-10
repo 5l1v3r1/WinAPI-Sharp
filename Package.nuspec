@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>WinAPI-Sharp_Fix</id>
+    <version>0.0.2</version>
+    <authors>ToxidWorm</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <icon>WinAPI_x32_upscale.png</icon>
+    <projectUrl>https://github.com/toxidworm/WinAPI-Sharp</projectUrl>
+    <description>C# Wrapper for WinAPI</description>
+    <releaseNotes>Added: PatBlt</releaseNotes>
+    <copyright>idc</copyright>
+    <tags>WinAPI GDI</tags>
+    <dependencies>
+      <group targetFramework=".NETStandard2.1">
+        <dependency id="WinAPI_Sharp_fix" version="0.0.2" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

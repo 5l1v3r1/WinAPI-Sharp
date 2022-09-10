@@ -43,5 +43,12 @@ namespace Windows
         {
             SelectObjectA(hdc, hgdiobj);
         }
+        [DllImport("gdi32.dll", EntryPoint = "PatBlt", SetLastError = true)]
+        static extern bool PatBltA(IntPtr hdc, int nXLeft, int nYLeft, int nWidth, int nHeight, CopyPixelOperation dwRop);
+        public static void PatBlt(IntPtr hdc, int nXLeft, int nYLeft, int nWidth, int nHeight, CopyPixelOperation dwRop)
+        {
+            PatBltA(hdc, nXLeft, nYLeft, nWidth, nHeight, dwRop);
+        }
+
     }
 }
